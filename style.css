@@ -1,0 +1,116 @@
+/* html{scroll-behavior: smooth;} */
+body{
+    font-family: 'Baloo Chettan 2', cursive;
+}
+::selection {
+    background-color: #333333;
+    color: #c5c5c5;
+}
+.main-img{
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+
+
+.overlay{
+   height: 100%;
+    position: absolute;
+
+    background-color: rgba(255, 0, 0, 0.39);
+}
+.image{
+    height: 100vh;
+    background-image: url("img/download\ \(1\).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+#open{
+    width: 20%;
+    left: -219px;
+    position: relative;
+}
+.openManu{
+    z-index: 999999;
+}
+#close{
+    cursor: pointer;
+}
+.the-list{
+    list-style: none;
+    font-size: 2.5rem ;
+}
+.the-list li{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.the-list li:hover{
+    color: red;
+    transition-property: width;
+    transition-duration: 2s;
+}
+#open{
+    position:fixed;
+}
+
+#open h4{
+    cursor: pointer;
+}
+.openIcon{
+    color: rgba(0, 0, 0, 0.657);
+    
+    z-index: 9999;
+}
+.head{
+    background-color: #E57374;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.slideOne{
+    display: none;
+    background-color: #CCCCCC;
+}
+.slideTwo{
+    display: none;
+    background-color: #CCCCCC;
+}
+.slideThree{
+    display: none;
+    background-color: #CCCCCC;
+}
+.slideFour{
+    background-color: #CCCCCC;
+    display: none;
+}
+.the-list a{
+    color: white!important;
+    text-decoration: none;
+}
+.secPic{
+    position: relative;
+    background-image: url("img/download.jpeg");
+    height: 50vh;
+    background-color: #333333;
+    background-size: cover;
+    z-index: -1;
+  
+    background-repeat: no-repeat;
+}
+.overlay{
+
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.431);
+}
+.icons{
+    font-size: 2.5rem;
+    float: left;
+    padding: 10px;
+}
+.icons:hover{
+    color:#D63833;
+}
